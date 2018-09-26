@@ -51,7 +51,7 @@ h1 {
     width: 35vw;
     position: absolute;
     right: 16%;
-    bottom: 0; }
+    bottom: -10%; }
 
 .original-shows {
   display: flex;
