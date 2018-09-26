@@ -1,0 +1,90 @@
+.content {
+  font-family: 'Libre Franklin', sans-serif;
+  display: flex;
+  flex-direction: column; }
+  .content p {
+    line-height: 1.5;
+    font-size: 18px; }
+
+h1 {
+  font-size: 120%; }
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 18vw;
+  margin-right: 18vw; }
+  .hero img {
+    max-width: 100%;
+    height: auto; }
+  .hero p {
+    width: 50vw; }
+
+.logo {
+  width: 30%;
+  height: auto;
+  margin-top: 17vh;
+  margin-bottom: 17vh; }
+
+.download-button {
+  width: 17em;
+  margin-top: 10vh;
+  margin-bottom: 10vh; }
+
+.hot-takes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16vh;
+  margin-bottom: 20vh;
+  position: relative; }
+  .hot-takes img {
+    margin-left: 2vh;
+    margin-right: auto;
+    width: 80%; }
+  .hot-takes .offset-description {
+    width: 35vw;
+    position: absolute;
+    right: 16%;
+    bottom: 0; }
+
+.original-shows {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5vw;
+  margin-right: 5vw; }
+  .original-shows img {
+    margin: 2em 0 -2em 5em;
+    width: 50%;
+    height: auto; }
+  .original-shows .description {
+    align-self: flex-start;
+    width: 35%; }
+
+.prizes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 13vw;
+  margin-right: 13vw; }
+  .prizes img {
+    width: 32%;
+    margin-right: 5em; }
+  .prizes .description {
+    width: 50%;
+    margin-right: auto; }
+
+.download-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20vh;
+  margin-bottom: 30vh; }
+  .download-footer h1 {
+    font-size: 200%; }
+  .download-footer img {
+    width: 18em; }
+
+/*# sourceMappingURL=index.css.map */
