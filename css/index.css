@@ -27,10 +27,14 @@ h1 {
   margin-top: 17vh;
   margin-bottom: 17vh; }
 
-.download-button {
+.download-buttons {
+  display: flex;
+  justify-content: space-between;
   width: 17em;
   margin-top: 10vh;
   margin-bottom: 10vh; }
+  .download-buttons img {
+    height: 2.4em; }
 
 .hot-takes {
   display: flex;
@@ -85,8 +89,8 @@ h1 {
   margin-bottom: 30vh; }
   .download-footer h1 {
     font-size: 200%; }
-  .download-footer img {
-    width: 18em; }
+  .download-footer .download-buttons {
+    margin: 0; }
 
 @media (max-width: 700px) {
   .hero {
