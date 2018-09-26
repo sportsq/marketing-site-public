@@ -43,7 +43,7 @@ h1 {
     margin-left: 2vh;
     margin-right: auto;
     width: 80%; }
-  .hot-takes .offset-description {
+  .hot-takes .description {
     width: 35vw;
     position: absolute;
     right: 16%;
@@ -51,6 +51,7 @@ h1 {
 
 .original-shows {
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
   margin-left: 5vw;
@@ -86,5 +87,34 @@ h1 {
     font-size: 200%; }
   .download-footer img {
     width: 18em; }
+
+@media (max-width: 700px) {
+  .hero {
+    margin-left: 10vw;
+    margin-right: 10vw; }
+    .hero p {
+      width: auto; }
+
+  .section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5vh 10vw 5vh 10vw; }
+    .section .description {
+      position: relative;
+      width: auto;
+      bottom: auto;
+      right: auto; }
+    .section img {
+      width: 80vw;
+      margin: 0;
+      margin-bottom: 5vh; }
+
+  .prizes img {
+    width: 50vw; }
+
+  .download-footer {
+    margin-top: 5vw;
+    margin-bottom: 5vw; } }
 
 /*# sourceMappingURL=index.css.map */
